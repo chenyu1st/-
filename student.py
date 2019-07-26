@@ -15,7 +15,7 @@ cur=conn.cursor()
 
 # def check():
 #     tk1=Tk()
-#     tk1.title(" 软帝电子教务系统    作者：刘方园，陈宇，曹悦，余卓")#窗口名称
+#     tk1.title(" 电子教务系统    作者：陈宇")#窗口名称
 #     tk1.geometry("450x300+550+200")
 #     l1 = Label(tk1,bg="ivory",width=1300,height=700).pack()#背景色
 #     tk1.iconbitmap(r'C:\Users\Administrator\Desktop\1.ico')
@@ -27,7 +27,7 @@ cur=conn.cursor()
 def studentlogin():
     window = tkinter.Tk()
     window.geometry("450x300+550+200")
-    window.title(" 软帝电子教务系统    作者：陈宇")
+    window.title(" 电子教务系统    作者：陈宇")
     l2 = tkinter.Label(window, bg="ivory", width=1300, height=700).pack()
     l2 = tkinter.Label(window, text="学生登录入口", bg="ivory", font=("宋体", 20))  # 信息框
     l2.place(x=100, y=25, width=200, height=60)
